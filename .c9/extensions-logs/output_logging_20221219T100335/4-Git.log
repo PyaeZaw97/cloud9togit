@@ -504,3 +504,5 @@ To add an exception for this directory, call:
 [2022-12-19T10:17:03.666Z] > git config --get commit.template [3ms]
 [2022-12-19T10:17:04.138Z] > git show --textconv :odoo_install.sh [5ms]
 [2022-12-19T10:17:04.235Z] > git check-ignore -v -z --stdin [2ms]
+[2022-12-19T16:08:18.941Z] > git show --textconv :odoo/odoo-server/odoo-bin [23ms]
+[2022-12-19T16:08:18.955Z] > git ls-files --stage -- odoo/odoo-server/ [9ms]

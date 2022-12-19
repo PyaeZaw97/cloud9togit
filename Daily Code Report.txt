@@ -9,3 +9,4 @@
   Modules(odoo-server): 'hr_attendance','hr','hr_holidays'
   Modules(custom_addons): 'om_hr_payroll','om_hr_payroll_account','waaneiza_exp_advanced_settlement,
   Descriptions : Add all
+ This is test

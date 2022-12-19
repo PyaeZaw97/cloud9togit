@@ -1,0 +1,8 @@
+2022-07-27 09:10:30 [ERROR]: log level: info
+2022-07-27 09:10:31 [INFO]: Retrieving AWS endpoint data
+2022-07-27 09:10:31 [INFO]: OS: Linux x64 5.4.0-1018-aws
+2022-07-27 09:10:31 [INFO]: AWS Cloud9 extension host:  1.67.2
+2022-07-27 09:10:31 [INFO]: AWS Toolkit:  1.45.0
+2022-07-27 09:10:31 [INFO]: node: 12.22.9
+2022-07-27 09:11:48 [INFO]: autoconnect: connected: 'ec2:instance'
+2022-07-27 09:15:32 [INFO]: telemetry: sent batch (size=5)

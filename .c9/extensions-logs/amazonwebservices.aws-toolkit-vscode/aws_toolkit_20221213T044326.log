@@ -1,0 +1,8 @@
+2022-12-13 04:43:26 [ERROR]: log level: info
+2022-12-13 04:43:27 [INFO]: Retrieving AWS endpoint data
+2022-12-13 04:43:27 [INFO]: OS: Linux x64 5.4.0-1018-aws
+2022-12-13 04:43:27 [INFO]: AWS Cloud9 extension host:  1.67.2
+2022-12-13 04:43:27 [INFO]: AWS Toolkit:  1.56.0
+2022-12-13 04:43:27 [INFO]: node: 12.22.9
+2022-12-13 04:43:50 [ERROR]: Settings (aws.stepfunctions.asl): using default for key "format.enable", read failed: TypeError: Unexpected type cast: got undefined, expected primitive Boolean
+2022-12-13 04:48:28 [INFO]: telemetry: sent batch (size=7)

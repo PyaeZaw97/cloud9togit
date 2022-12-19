@@ -1,0 +1,83 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+define(["require", "exports", "vs/platform/registry/common/platform", "vs/workbench/services/output/common/output", "../common/extHost.protocol", "vs/workbench/services/extensions/common/extHostCustomers", "vs/base/common/uri", "vs/base/common/lifecycle", "vs/base/common/event", "vs/workbench/common/views", "vs/base/common/types"], function (require, exports, platform_1, output_1, extHost_protocol_1, extHostCustomers_1, uri_1, lifecycle_1, event_1, views_1, types_1) {
+    "use strict";
+    var MainThreadOutputService_1;
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.MainThreadOutputService = void 0;
+    let MainThreadOutputService = MainThreadOutputService_1 = class MainThreadOutputService extends lifecycle_1.Disposable {
+        constructor(extHostContext, outputService, viewsService) {
+            super();
+            this._outputService = outputService;
+            this._viewsService = viewsService;
+            this._proxy = extHostContext.getProxy(extHost_protocol_1.ExtHostContext.ExtHostOutputService);
+            const setVisibleChannel = () => {
+                const visibleChannel = this._viewsService.isViewVisible(output_1.OUTPUT_VIEW_ID) ? this._outputService.getActiveChannel() : undefined;
+                this._proxy.$setVisibleChannel(visibleChannel ? visibleChannel.id : null);
+            };
+            this._register(event_1.Event.any(this._outputService.onActiveOutputChannel, event_1.Event.filter(this._viewsService.onDidChangeViewVisibility, ({ id }) => id === output_1.OUTPUT_VIEW_ID))(() => setVisibleChannel()));
+            setVisibleChannel();
+        }
+        async $register(label, log, file, languageId, extensionId) {
+            const idCounter = (MainThreadOutputService_1._extensionIdPool.get(extensionId) || 0) + 1;
+            MainThreadOutputService_1._extensionIdPool.set(extensionId, idCounter);
+            const id = `extension-output-${extensionId}-#${idCounter}`;
+            platform_1.Registry.as(output_1.Extensions.OutputChannels).registerChannel({ id, label, file: uri_1.URI.revive(file), log, languageId });
+            this._register((0, lifecycle_1.toDisposable)(() => this.$dispose(id)));
+            return id;
+        }
+        async $update(channelId, mode, till) {
+            const channel = this._getChannel(channelId);
+            if (channel) {
+                if (mode === output_1.OutputChannelUpdateMode.Append) {
+                    channel.update(mode);
+                }
+                else if ((0, types_1.isNumber)(till)) {
+                    channel.update(mode, till);
+                }
+            }
+        }
+        async $reveal(channelId, preserveFocus) {
+            const channel = this._getChannel(channelId);
+            if (channel) {
+                this._outputService.showChannel(channel.id, preserveFocus);
+            }
+        }
+        async $close(channelId) {
+            if (this._viewsService.isViewVisible(output_1.OUTPUT_VIEW_ID)) {
+                const activeChannel = this._outputService.getActiveChannel();
+                if (activeChannel && channelId === activeChannel.id) {
+                    this._viewsService.closeView(output_1.OUTPUT_VIEW_ID);
+                }
+            }
+        }
+        async $dispose(channelId) {
+            const channel = this._getChannel(channelId);
+            if (channel) {
+                channel.dispose();
+            }
+        }
+        _getChannel(channelId) {
+            return this._outputService.getChannel(channelId);
+        }
+    };
+    MainThreadOutputService._extensionIdPool = new Map();
+    MainThreadOutputService = MainThreadOutputService_1 = __decorate([
+        (0, extHostCustomers_1.extHostNamedCustomer)(extHost_protocol_1.MainContext.MainThreadOutputService),
+        __param(1, output_1.IOutputService),
+        __param(2, views_1.IViewsService)
+    ], MainThreadOutputService);
+    exports.MainThreadOutputService = MainThreadOutputService;
+});
+//# sourceMappingURL=mainThreadOutputService.js.map

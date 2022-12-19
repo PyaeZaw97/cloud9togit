@@ -1,0 +1,478 @@
+[2022-12-13T04:30:36.149Z] Validating found git in: git
+[2022-12-13T04:30:36.240Z] Using git 2.25.1 from git
+[2022-12-13T04:30:36.289Z] > git rev-parse --show-toplevel [14ms]
+[2022-12-13T04:30:36.289Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-12-13T04:30:36.320Z] > git rev-parse --show-toplevel [12ms]
+[2022-12-13T04:30:36.338Z] > git rev-parse --git-dir --git-common-dir [6ms]
+[2022-12-13T04:30:36.352Z] Open repository: /home/ubuntu/.nvm
+[2022-12-13T04:30:36.389Z] > git rev-parse --show-toplevel [4ms]
+[2022-12-13T04:30:36.389Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.408Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:36.408Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.428Z] > git rev-parse --show-toplevel [12ms]
+[2022-12-13T04:30:36.445Z] > git rev-parse --git-dir --git-common-dir [6ms]
+[2022-12-13T04:30:36.450Z] Open repository: /home/ubuntu/InstallScript
+[2022-12-13T04:30:36.499Z] > git rev-parse --show-toplevel [4ms]
+[2022-12-13T04:30:36.499Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.515Z] > git status -z -uall [44ms]
+[2022-12-13T04:30:36.529Z] > git rev-parse --show-toplevel [15ms]
+[2022-12-13T04:30:36.529Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.541Z] > git symbolic-ref --short HEAD [13ms]
+[2022-12-13T04:30:36.565Z] > git rev-parse --show-toplevel [24ms]
+[2022-12-13T04:30:36.565Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.586Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/15.0 refs/remotes/15.0 [23ms]
+[2022-12-13T04:30:36.608Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+[2022-12-13T04:30:36.609Z] > git rev-parse --show-toplevel [24ms]
+[2022-12-13T04:30:36.609Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.623Z] > git status -z -uall [248ms]
+[2022-12-13T04:30:36.630Z] > git remote --verbose [24ms]
+[2022-12-13T04:30:36.653Z] > git symbolic-ref --short HEAD [23ms]
+[2022-12-13T04:30:36.653Z] fatal: ref HEAD is not a symbolic ref
+[2022-12-13T04:30:36.658Z] > git rev-parse --show-toplevel [36ms]
+[2022-12-13T04:30:36.658Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.671Z] > git rev-parse HEAD [13ms]
+[2022-12-13T04:30:36.684Z] > git config --get commit.template [32ms]
+[2022-12-13T04:30:36.686Z] > git rev-parse --show-toplevel [16ms]
+[2022-12-13T04:30:36.686Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.713Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [34ms]
+[2022-12-13T04:30:36.715Z] > git remote --verbose [32ms]
+[2022-12-13T04:30:36.744Z] > git rev-parse --show-toplevel [32ms]
+[2022-12-13T04:30:36.744Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-12-13T04:30:36.764Z] > git rev-parse --show-toplevel [13ms]
+[2022-12-13T04:30:36.764Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-12-13T04:30:36.775Z] > git config --get commit.template [32ms]
+[2022-12-13T04:30:36.781Z] > git rev-parse --show-toplevel [6ms]
+[2022-12-13T04:30:36.781Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-12-13T04:30:36.793Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:36.793Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-12-13T04:30:36.805Z] > git rev-parse --show-toplevel [2ms]
+[2022-12-13T04:30:36.805Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-12-13T04:30:36.826Z] > git rev-parse --show-toplevel [7ms]
+[2022-12-13T04:30:36.826Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-12-13T04:30:36.839Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:36.839Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-12-13T04:30:36.851Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:36.851Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.863Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:36.863Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.875Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:36.875Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.887Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:36.887Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.899Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:36.899Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.914Z] > git rev-parse --show-toplevel [8ms]
+[2022-12-13T04:30:36.914Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.930Z] > git rev-parse --show-toplevel [3ms]
+[2022-12-13T04:30:36.930Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.943Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:36.943Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.956Z] > git rev-parse --show-toplevel [6ms]
+[2022-12-13T04:30:36.956Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.971Z] > git rev-parse --show-toplevel [7ms]
+[2022-12-13T04:30:36.971Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:36.986Z] > git rev-parse --show-toplevel [7ms]
+[2022-12-13T04:30:36.986Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.000Z] > git rev-parse --show-toplevel [6ms]
+[2022-12-13T04:30:37.000Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.020Z] > git rev-parse --show-toplevel [12ms]
+[2022-12-13T04:30:37.020Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.035Z] > git rev-parse --show-toplevel [4ms]
+[2022-12-13T04:30:37.035Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.047Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.047Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.060Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.060Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.073Z] > git rev-parse --show-toplevel [6ms]
+[2022-12-13T04:30:37.073Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.086Z] > git rev-parse --show-toplevel [6ms]
+[2022-12-13T04:30:37.086Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.098Z] > git rev-parse --show-toplevel [4ms]
+[2022-12-13T04:30:37.098Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.110Z] > git rev-parse --show-toplevel [4ms]
+[2022-12-13T04:30:37.110Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.126Z] > git rev-parse --show-toplevel [8ms]
+[2022-12-13T04:30:37.126Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.140Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.140Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.152Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.152Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.163Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.163Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.175Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.175Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.187Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.187Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.205Z] > git rev-parse --show-toplevel [7ms]
+[2022-12-13T04:30:37.206Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.218Z] > git rev-parse --show-toplevel [4ms]
+[2022-12-13T04:30:37.218Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.231Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.231Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.252Z] > git rev-parse --show-toplevel [3ms]
+[2022-12-13T04:30:37.252Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.264Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.265Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.276Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.276Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.288Z] > git rev-parse --show-toplevel [2ms]
+[2022-12-13T04:30:37.288Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.298Z] > git rev-parse --show-toplevel [4ms]
+[2022-12-13T04:30:37.298Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.313Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.314Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.327Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.327Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.339Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.339Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.352Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.352Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.372Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.372Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.384Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.384Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.396Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.396Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.408Z] > git rev-parse --show-toplevel [6ms]
+[2022-12-13T04:30:37.408Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.419Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.420Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.431Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.431Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.443Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.443Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.455Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.455Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.474Z] > git rev-parse --show-toplevel [4ms]
+[2022-12-13T04:30:37.474Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.488Z] > git rev-parse --show-toplevel [6ms]
+[2022-12-13T04:30:37.488Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.500Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.500Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.512Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.512Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.523Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.523Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.535Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.535Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.547Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.547Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.557Z] > git rev-parse --show-toplevel [3ms]
+[2022-12-13T04:30:37.557Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.577Z] > git rev-parse --show-toplevel [6ms]
+[2022-12-13T04:30:37.577Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.589Z] > git rev-parse --show-toplevel [3ms]
+[2022-12-13T04:30:37.589Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.601Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.601Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.612Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.612Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.624Z] > git rev-parse --show-toplevel [6ms]
+[2022-12-13T04:30:37.624Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.650Z] > git rev-parse --show-toplevel [7ms]
+[2022-12-13T04:30:37.650Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.662Z] > git rev-parse --show-toplevel [1ms]
+[2022-12-13T04:30:37.662Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.681Z] > git rev-parse --show-toplevel [6ms]
+[2022-12-13T04:30:37.681Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.693Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.693Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.705Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.705Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.716Z] > git rev-parse --show-toplevel [4ms]
+[2022-12-13T04:30:37.716Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.728Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.728Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.739Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.739Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.751Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.751Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.776Z] > git rev-parse --show-toplevel [9ms]
+[2022-12-13T04:30:37.776Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.821Z] > git rev-parse --show-toplevel [34ms]
+[2022-12-13T04:30:37.821Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.857Z] > git rev-parse --show-toplevel [20ms]
+[2022-12-13T04:30:37.857Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.884Z] > git rev-parse --show-toplevel [3ms]
+[2022-12-13T04:30:37.884Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.911Z] > git rev-parse --show-toplevel [21ms]
+[2022-12-13T04:30:37.911Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.937Z] > git rev-parse --show-toplevel [4ms]
+[2022-12-13T04:30:37.937Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.966Z] > git rev-parse --show-toplevel [20ms]
+[2022-12-13T04:30:37.966Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:37.980Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:37.980Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:38.027Z] > git rev-parse --show-toplevel [6ms]
+[2022-12-13T04:30:38.027Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:38.039Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:38.039Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:38.051Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:38.052Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:38.063Z] > git rev-parse --show-toplevel [5ms]
+[2022-12-13T04:30:38.063Z] fatal: detected dubious ownership in repository at '/odoo/custom/Accounting'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /odoo/custom/Accounting
+[2022-12-13T04:30:43.160Z] > git check-ignore -v -z --stdin [4ms]

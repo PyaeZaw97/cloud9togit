@@ -1,0 +1,11 @@
+#User
+#Date
+#model name or view or folder
+#line name
+#change code and Desc
+
+# User: SweZin
+  Date: 03-Jul_22
+  Modules(odoo-server): 'hr_attendance','hr','hr_holidays'
+  Modules(custom_addons): 'om_hr_payroll','om_hr_payroll_account','waaneiza_exp_advanced_settlement,
+  Descriptions : Add all

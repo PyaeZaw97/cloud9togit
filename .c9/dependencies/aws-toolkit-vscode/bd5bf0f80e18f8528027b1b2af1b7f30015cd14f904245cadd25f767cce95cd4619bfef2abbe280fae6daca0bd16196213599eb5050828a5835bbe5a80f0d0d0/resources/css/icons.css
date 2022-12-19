@@ -1,0 +1,1865 @@
+/* 
+ * Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. 
+ * SPDX-License-Identifier: Apache-2.0 
+ * 
+ * This style sheet was generated using "scripts/build/generateIcons.ts". 
+ */ 
+
+@font-face {
+  font-display: auto;
+  font-family: "aws-toolkit-icons";
+  font-style: normal;
+  font-weight: 400;
+  
+  src: url("../fonts/aws-toolkit-icons.woff?1669603368181") format("woff"); 
+}
+
+.icon {
+  display: inline-block;
+  font-family: "aws-toolkit-icons";
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+
+.icon-xs {
+  font-size: 0.75em;
+}
+
+.icon-sm {
+  font-size: 0.875em;
+}
+
+.icon-1x {
+  font-size: 1em;
+}
+
+.icon-2x {
+  font-size: 2em;
+}
+
+.icon-3x {
+  font-size: 3em;
+}
+
+.icon-4x {
+  font-size: 4em;
+}
+
+.icon-5x {
+  font-size: 5em;
+}
+
+.icon-6x {
+  font-size: 6em;
+}
+
+.icon-7x {
+  font-size: 7em;
+}
+
+.icon-8x {
+  font-size: 8em;
+}
+
+.icon-9x {
+  font-size: 9em;
+}
+
+.icon-10x {
+  font-size: 10em;
+}
+
+.icon-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.icon-border {
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
+}
+
+.icon-pull-left {
+  float: left;
+}
+
+.icon-pull-right {
+  float: right;
+}
+
+.icon.icon-pull-left {
+  margin-right: 0.3em;
+}
+
+.icon.icon-pull-right {
+  margin-left: 0.3em;
+}
+
+
+.icon-vscode-account::before {
+  content: "\1b99";
+}
+
+.icon-vscode-activate-breakpoints::before {
+  content: "\1a97";
+}
+
+.icon-vscode-add::before {
+  content: "\1a60";
+}
+
+.icon-vscode-archive::before {
+  content: "\1a98";
+}
+
+.icon-vscode-arrow-both::before {
+  content: "\1a99";
+}
+
+.icon-vscode-arrow-circle-down::before {
+  content: "\1bfc";
+}
+
+.icon-vscode-arrow-circle-left::before {
+  content: "\1bfd";
+}
+
+.icon-vscode-arrow-circle-right::before {
+  content: "\1bfe";
+}
+
+.icon-vscode-arrow-circle-up::before {
+  content: "\1bff";
+}
+
+.icon-vscode-arrow-down::before {
+  content: "\1a9a";
+}
+
+.icon-vscode-arrow-left::before {
+  content: "\1a9b";
+}
+
+.icon-vscode-arrow-right::before {
+  content: "\1a9c";
+}
+
+.icon-vscode-arrow-small-down::before {
+  content: "\1a9d";
+}
+
+.icon-vscode-arrow-small-left::before {
+  content: "\1a9e";
+}
+
+.icon-vscode-arrow-small-right::before {
+  content: "\1a9f";
+}
+
+.icon-vscode-arrow-small-up::before {
+  content: "\1aa0";
+}
+
+.icon-vscode-arrow-swap::before {
+  content: "\1bcb";
+}
+
+.icon-vscode-arrow-up::before {
+  content: "\1aa1";
+}
+
+.icon-vscode-azure::before {
+  content: "\1bd8";
+}
+
+.icon-vscode-azure-devops::before {
+  content: "\1be8";
+}
+
+.icon-vscode-beaker::before {
+  content: "\1a79";
+}
+
+.icon-vscode-beaker-stop::before {
+  content: "\1be1";
+}
+
+.icon-vscode-bell::before {
+  content: "\1aa2";
+}
+
+.icon-vscode-bell-dot::before {
+  content: "\1b9a";
+}
+
+.icon-vscode-bell-slash::before {
+  content: "\1c08";
+}
+
+.icon-vscode-bell-slash-dot::before {
+  content: "\1c09";
+}
+
+.icon-vscode-blank::before {
+  content: "\1c03";
+}
+
+.icon-vscode-bold::before {
+  content: "\1aa3";
+}
+
+.icon-vscode-book::before {
+  content: "\1aa4";
+}
+
+.icon-vscode-bookmark::before {
+  content: "\1aa5";
+}
+
+.icon-vscode-bracket-dot::before {
+  content: "\1be5";
+}
+
+.icon-vscode-bracket-error::before {
+  content: "\1be6";
+}
+
+.icon-vscode-briefcase::before {
+  content: "\1aac";
+}
+
+.icon-vscode-broadcast::before {
+  content: "\1aad";
+}
+
+.icon-vscode-browser::before {
+  content: "\1aae";
+}
+
+.icon-vscode-bug::before {
+  content: "\1aaf";
+}
+
+.icon-vscode-calendar::before {
+  content: "\1ab0";
+}
+
+.icon-vscode-call-incoming::before {
+  content: "\1b92";
+}
+
+.icon-vscode-call-outgoing::before {
+  content: "\1b93";
+}
+
+.icon-vscode-case-sensitive::before {
+  content: "\1ab1";
+}
+
+.icon-vscode-check::before {
+  content: "\1ab2";
+}
+
+.icon-vscode-check-all::before {
+  content: "\1bb1";
+}
+
+.icon-vscode-checklist::before {
+  content: "\1ab3";
+}
+
+.icon-vscode-chevron-down::before {
+  content: "\1ab4";
+}
+
+.icon-vscode-chevron-left::before {
+  content: "\1ab5";
+}
+
+.icon-vscode-chevron-right::before {
+  content: "\1ab6";
+}
+
+.icon-vscode-chevron-up::before {
+  content: "\1ab7";
+}
+
+.icon-vscode-chrome-close::before {
+  content: "\1ab8";
+}
+
+.icon-vscode-chrome-maximize::before {
+  content: "\1ab9";
+}
+
+.icon-vscode-chrome-minimize::before {
+  content: "\1aba";
+}
+
+.icon-vscode-chrome-restore::before {
+  content: "\1abb";
+}
+
+.icon-vscode-circle-filled::before {
+  content: "\1a71";
+}
+
+.icon-vscode-circle-large-filled::before {
+  content: "\1bb4";
+}
+
+.icon-vscode-circle-large-outline::before {
+  content: "\1bb5";
+}
+
+.icon-vscode-circle-outline::before {
+  content: "\1abc";
+}
+
+.icon-vscode-circle-slash::before {
+  content: "\1abd";
+}
+
+.icon-vscode-circle-small::before {
+  content: "\1c07";
+}
+
+.icon-vscode-circle-small-filled::before {
+  content: "\1b8a";
+}
+
+.icon-vscode-circuit-board::before {
+  content: "\1abe";
+}
+
+.icon-vscode-clear-all::before {
+  content: "\1abf";
+}
+
+.icon-vscode-clippy::before {
+  content: "\1ac0";
+}
+
+.icon-vscode-close::before {
+  content: "\1a76";
+}
+
+.icon-vscode-close-all::before {
+  content: "\1ac1";
+}
+
+.icon-vscode-cloud::before {
+  content: "\1baa";
+}
+
+.icon-vscode-cloud-download::before {
+  content: "\1ac2";
+}
+
+.icon-vscode-cloud-upload::before {
+  content: "\1ac3";
+}
+
+.icon-vscode-code::before {
+  content: "\1ac4";
+}
+
+.icon-vscode-collapse-all::before {
+  content: "\1ac5";
+}
+
+.icon-vscode-color-mode::before {
+  content: "\1ac6";
+}
+
+.icon-vscode-combine::before {
+  content: "\1bb6";
+}
+
+.icon-vscode-comment::before {
+  content: "\1a6b";
+}
+
+.icon-vscode-comment-discussion::before {
+  content: "\1ac7";
+}
+
+.icon-vscode-comment-unresolved::before {
+  content: "\1c0a";
+}
+
+.icon-vscode-compass::before {
+  content: "\1bd5";
+}
+
+.icon-vscode-compass-active::before {
+  content: "\1bd7";
+}
+
+.icon-vscode-compass-dot::before {
+  content: "\1bd6";
+}
+
+.icon-vscode-copy::before {
+  content: "\1bcc";
+}
+
+.icon-vscode-credit-card::before {
+  content: "\1ac9";
+}
+
+.icon-vscode-dash::before {
+  content: "\1acc";
+}
+
+.icon-vscode-dashboard::before {
+  content: "\1acd";
+}
+
+.icon-vscode-database::before {
+  content: "\1ace";
+}
+
+.icon-vscode-debug::before {
+  content: "\1ad8";
+}
+
+.icon-vscode-debug-all::before {
+  content: "\1bdc";
+}
+
+.icon-vscode-debug-alt::before {
+  content: "\1b91";
+}
+
+.icon-vscode-debug-alt-small::before {
+  content: "\1ba8";
+}
+
+.icon-vscode-debug-breakpoint-conditional::before {
+  content: "\1aa7";
+}
+
+.icon-vscode-debug-breakpoint-conditional-unverified::before {
+  content: "\1aa6";
+}
+
+.icon-vscode-debug-breakpoint-data::before {
+  content: "\1aa9";
+}
+
+.icon-vscode-debug-breakpoint-data-unverified::before {
+  content: "\1aa8";
+}
+
+.icon-vscode-debug-breakpoint-function::before {
+  content: "\1b88";
+}
+
+.icon-vscode-debug-breakpoint-function-unverified::before {
+  content: "\1b87";
+}
+
+.icon-vscode-debug-breakpoint-log::before {
+  content: "\1aab";
+}
+
+.icon-vscode-debug-breakpoint-log-unverified::before {
+  content: "\1aaa";
+}
+
+.icon-vscode-debug-breakpoint-unsupported::before {
+  content: "\1b8c";
+}
+
+.icon-vscode-debug-console::before {
+  content: "\1b9b";
+}
+
+.icon-vscode-debug-continue::before {
+  content: "\1acf";
+}
+
+.icon-vscode-debug-continue-small::before {
+  content: "\1be0";
+}
+
+.icon-vscode-debug-coverage::before {
+  content: "\1bdd";
+}
+
+.icon-vscode-debug-disconnect::before {
+  content: "\1ad0";
+}
+
+.icon-vscode-debug-line-by-line::before {
+  content: "\1bd0";
+}
+
+.icon-vscode-debug-pause::before {
+  content: "\1ad1";
+}
+
+.icon-vscode-debug-rerun::before {
+  content: "\1bc0";
+}
+
+.icon-vscode-debug-restart::before {
+  content: "\1ad2";
+}
+
+.icon-vscode-debug-restart-frame::before {
+  content: "\1b90";
+}
+
+.icon-vscode-debug-reverse-continue::before {
+  content: "\1b8e";
+}
+
+.icon-vscode-debug-stackframe::before {
+  content: "\1b8b";
+}
+
+.icon-vscode-debug-stackframe-active::before {
+  content: "\1b89";
+}
+
+.icon-vscode-debug-start::before {
+  content: "\1ad3";
+}
+
+.icon-vscode-debug-step-back::before {
+  content: "\1b8f";
+}
+
+.icon-vscode-debug-step-into::before {
+  content: "\1ad4";
+}
+
+.icon-vscode-debug-step-out::before {
+  content: "\1ad5";
+}
+
+.icon-vscode-debug-step-over::before {
+  content: "\1ad6";
+}
+
+.icon-vscode-debug-stop::before {
+  content: "\1ad7";
+}
+
+.icon-vscode-desktop-download::before {
+  content: "\1a78";
+}
+
+.icon-vscode-device-camera::before {
+  content: "\1ada";
+}
+
+.icon-vscode-device-camera-video::before {
+  content: "\1ad9";
+}
+
+.icon-vscode-device-mobile::before {
+  content: "\1adb";
+}
+
+.icon-vscode-diff::before {
+  content: "\1ae1";
+}
+
+.icon-vscode-diff-added::before {
+  content: "\1adc";
+}
+
+.icon-vscode-diff-ignored::before {
+  content: "\1add";
+}
+
+.icon-vscode-diff-modified::before {
+  content: "\1ade";
+}
+
+.icon-vscode-diff-removed::before {
+  content: "\1adf";
+}
+
+.icon-vscode-diff-renamed::before {
+  content: "\1ae0";
+}
+
+.icon-vscode-discard::before {
+  content: "\1ae2";
+}
+
+.icon-vscode-edit::before {
+  content: "\1a73";
+}
+
+.icon-vscode-editor-layout::before {
+  content: "\1ae3";
+}
+
+.icon-vscode-ellipsis::before {
+  content: "\1a7c";
+}
+
+.icon-vscode-empty-window::before {
+  content: "\1ae4";
+}
+
+.icon-vscode-error::before {
+  content: "\1a87";
+}
+
+.icon-vscode-error-small::before {
+  content: "\1bfb";
+}
+
+.icon-vscode-exclude::before {
+  content: "\1ae5";
+}
+
+.icon-vscode-expand-all::before {
+  content: "\1b95";
+}
+
+.icon-vscode-export::before {
+  content: "\1bac";
+}
+
+.icon-vscode-extensions::before {
+  content: "\1ae6";
+}
+
+.icon-vscode-eye::before {
+  content: "\1a70";
+}
+
+.icon-vscode-eye-closed::before {
+  content: "\1ae7";
+}
+
+.icon-vscode-feedback::before {
+  content: "\1b96";
+}
+
+.icon-vscode-file::before {
+  content: "\1a7b";
+}
+
+.icon-vscode-file-binary::before {
+  content: "\1ae8";
+}
+
+.icon-vscode-file-code::before {
+  content: "\1ae9";
+}
+
+.icon-vscode-file-media::before {
+  content: "\1aea";
+}
+
+.icon-vscode-file-pdf::before {
+  content: "\1aeb";
+}
+
+.icon-vscode-file-submodule::before {
+  content: "\1aec";
+}
+
+.icon-vscode-file-symlink-directory::before {
+  content: "\1aed";
+}
+
+.icon-vscode-file-symlink-file::before {
+  content: "\1aee";
+}
+
+.icon-vscode-file-zip::before {
+  content: "\1aef";
+}
+
+.icon-vscode-files::before {
+  content: "\1af0";
+}
+
+.icon-vscode-filter::before {
+  content: "\1af1";
+}
+
+.icon-vscode-filter-filled::before {
+  content: "\1bce";
+}
+
+.icon-vscode-flame::before {
+  content: "\1af2";
+}
+
+.icon-vscode-fold::before {
+  content: "\1af5";
+}
+
+.icon-vscode-fold-down::before {
+  content: "\1af3";
+}
+
+.icon-vscode-fold-up::before {
+  content: "\1af4";
+}
+
+.icon-vscode-folder::before {
+  content: "\1a83";
+}
+
+.icon-vscode-folder-active::before {
+  content: "\1af6";
+}
+
+.icon-vscode-folder-library::before {
+  content: "\1bdf";
+}
+
+.icon-vscode-folder-opened::before {
+  content: "\1af7";
+}
+
+.icon-vscode-gear::before {
+  content: "\1af8";
+}
+
+.icon-vscode-gift::before {
+  content: "\1af9";
+}
+
+.icon-vscode-gist::before {
+  content: "\1afb";
+}
+
+.icon-vscode-gist-secret::before {
+  content: "\1afa";
+}
+
+.icon-vscode-git-commit::before {
+  content: "\1afc";
+}
+
+.icon-vscode-git-compare::before {
+  content: "\1afd";
+}
+
+.icon-vscode-git-merge::before {
+  content: "\1afe";
+}
+
+.icon-vscode-git-pull-request::before {
+  content: "\1a64";
+}
+
+.icon-vscode-git-pull-request-closed::before {
+  content: "\1bda";
+}
+
+.icon-vscode-git-pull-request-create::before {
+  content: "\1bbc";
+}
+
+.icon-vscode-git-pull-request-draft::before {
+  content: "\1bdb";
+}
+
+.icon-vscode-git-pull-request-go-to-changes::before {
+  content: "\1c0b";
+}
+
+.icon-vscode-git-pull-request-new-changes::before {
+  content: "\1c0c";
+}
+
+.icon-vscode-github::before {
+  content: "\1a84";
+}
+
+.icon-vscode-github-action::before {
+  content: "\1aff";
+}
+
+.icon-vscode-github-alt::before {
+  content: "\1b00";
+}
+
+.icon-vscode-github-inverted::before {
+  content: "\1ba1";
+}
+
+.icon-vscode-globe::before {
+  content: "\1b01";
+}
+
+.icon-vscode-go-to-file::before {
+  content: "\1a94";
+}
+
+.icon-vscode-grabber::before {
+  content: "\1b02";
+}
+
+.icon-vscode-graph::before {
+  content: "\1b03";
+}
+
+.icon-vscode-graph-left::before {
+  content: "\1bad";
+}
+
+.icon-vscode-graph-line::before {
+  content: "\1be2";
+}
+
+.icon-vscode-graph-scatter::before {
+  content: "\1be3";
+}
+
+.icon-vscode-gripper::before {
+  content: "\1b04";
+}
+
+.icon-vscode-group-by-ref-type::before {
+  content: "\1b97";
+}
+
+.icon-vscode-heart::before {
+  content: "\1b05";
+}
+
+.icon-vscode-heart-filled::before {
+  content: "\1c04";
+}
+
+.icon-vscode-history::before {
+  content: "\1a82";
+}
+
+.icon-vscode-home::before {
+  content: "\1b06";
+}
+
+.icon-vscode-horizontal-rule::before {
+  content: "\1b07";
+}
+
+.icon-vscode-hubot::before {
+  content: "\1b08";
+}
+
+.icon-vscode-inbox::before {
+  content: "\1b09";
+}
+
+.icon-vscode-indent::before {
+  content: "\1bf9";
+}
+
+.icon-vscode-info::before {
+  content: "\1a74";
+}
+
+.icon-vscode-inspect::before {
+  content: "\1bd1";
+}
+
+.icon-vscode-issue-draft::before {
+  content: "\1bd9";
+}
+
+.icon-vscode-issue-reopened::before {
+  content: "\1b0b";
+}
+
+.icon-vscode-issues::before {
+  content: "\1b0c";
+}
+
+.icon-vscode-italic::before {
+  content: "\1b0d";
+}
+
+.icon-vscode-jersey::before {
+  content: "\1b0e";
+}
+
+.icon-vscode-json::before {
+  content: "\1b0f";
+}
+
+.icon-vscode-kebab-vertical::before {
+  content: "\1b10";
+}
+
+.icon-vscode-key::before {
+  content: "\1b11";
+}
+
+.icon-vscode-law::before {
+  content: "\1b12";
+}
+
+.icon-vscode-layers::before {
+  content: "\1bd2";
+}
+
+.icon-vscode-layers-active::before {
+  content: "\1bd4";
+}
+
+.icon-vscode-layers-dot::before {
+  content: "\1bd3";
+}
+
+.icon-vscode-layout::before {
+  content: "\1beb";
+}
+
+.icon-vscode-layout-activitybar-left::before {
+  content: "\1bec";
+}
+
+.icon-vscode-layout-activitybar-right::before {
+  content: "\1bed";
+}
+
+.icon-vscode-layout-centered::before {
+  content: "\1bf7";
+}
+
+.icon-vscode-layout-menubar::before {
+  content: "\1bf6";
+}
+
+.icon-vscode-layout-panel::before {
+  content: "\1bf2";
+}
+
+.icon-vscode-layout-panel-center::before {
+  content: "\1bef";
+}
+
+.icon-vscode-layout-panel-justify::before {
+  content: "\1bf0";
+}
+
+.icon-vscode-layout-panel-left::before {
+  content: "\1bee";
+}
+
+.icon-vscode-layout-panel-off::before {
+  content: "\1c01";
+}
+
+.icon-vscode-layout-panel-right::before {
+  content: "\1bf1";
+}
+
+.icon-vscode-layout-sidebar-left::before {
+  content: "\1bf3";
+}
+
+.icon-vscode-layout-sidebar-left-off::before {
+  content: "\1c02";
+}
+
+.icon-vscode-layout-sidebar-right::before {
+  content: "\1bf4";
+}
+
+.icon-vscode-layout-sidebar-right-off::before {
+  content: "\1c00";
+}
+
+.icon-vscode-layout-statusbar::before {
+  content: "\1bf5";
+}
+
+.icon-vscode-library::before {
+  content: "\1b9c";
+}
+
+.icon-vscode-lightbulb::before {
+  content: "\1a61";
+}
+
+.icon-vscode-lightbulb-autofix::before {
+  content: "\1b13";
+}
+
+.icon-vscode-link::before {
+  content: "\1b15";
+}
+
+.icon-vscode-link-external::before {
+  content: "\1b14";
+}
+
+.icon-vscode-list-filter::before {
+  content: "\1b83";
+}
+
+.icon-vscode-list-flat::before {
+  content: "\1b84";
+}
+
+.icon-vscode-list-ordered::before {
+  content: "\1b16";
+}
+
+.icon-vscode-list-selection::before {
+  content: "\1b85";
+}
+
+.icon-vscode-list-tree::before {
+  content: "\1b86";
+}
+
+.icon-vscode-list-unordered::before {
+  content: "\1b17";
+}
+
+.icon-vscode-live-share::before {
+  content: "\1b18";
+}
+
+.icon-vscode-loading::before {
+  content: "\1b19";
+}
+
+.icon-vscode-location::before {
+  content: "\1b1a";
+}
+
+.icon-vscode-lock::before {
+  content: "\1a75";
+}
+
+.icon-vscode-lock-small::before {
+  content: "\1be7";
+}
+
+.icon-vscode-magnet::before {
+  content: "\1bae";
+}
+
+.icon-vscode-mail::before {
+  content: "\1b1c";
+}
+
+.icon-vscode-mail-read::before {
+  content: "\1b1b";
+}
+
+.icon-vscode-map::before {
+  content: "\1c05";
+}
+
+.icon-vscode-map-filled::before {
+  content: "\1c06";
+}
+
+.icon-vscode-markdown::before {
+  content: "\1b1d";
+}
+
+.icon-vscode-megaphone::before {
+  content: "\1b1e";
+}
+
+.icon-vscode-mention::before {
+  content: "\1b1f";
+}
+
+.icon-vscode-menu::before {
+  content: "\1b94";
+}
+
+.icon-vscode-merge::before {
+  content: "\1bab";
+}
+
+.icon-vscode-milestone::before {
+  content: "\1b20";
+}
+
+.icon-vscode-mirror::before {
+  content: "\1a69";
+}
+
+.icon-vscode-mortar-board::before {
+  content: "\1b21";
+}
+
+.icon-vscode-move::before {
+  content: "\1b22";
+}
+
+.icon-vscode-multiple-windows::before {
+  content: "\1b23";
+}
+
+.icon-vscode-mute::before {
+  content: "\1b24";
+}
+
+.icon-vscode-new-file::before {
+  content: "\1a7f";
+}
+
+.icon-vscode-new-folder::before {
+  content: "\1a80";
+}
+
+.icon-vscode-newline::before {
+  content: "\1bea";
+}
+
+.icon-vscode-no-newline::before {
+  content: "\1b25";
+}
+
+.icon-vscode-note::before {
+  content: "\1b26";
+}
+
+.icon-vscode-notebook::before {
+  content: "\1baf";
+}
+
+.icon-vscode-notebook-template::before {
+  content: "\1bbf";
+}
+
+.icon-vscode-octoface::before {
+  content: "\1b27";
+}
+
+.icon-vscode-open-preview::before {
+  content: "\1b28";
+}
+
+.icon-vscode-organization::before {
+  content: "\1a7e";
+}
+
+.icon-vscode-output::before {
+  content: "\1b9d";
+}
+
+.icon-vscode-package::before {
+  content: "\1b29";
+}
+
+.icon-vscode-paintcan::before {
+  content: "\1b2a";
+}
+
+.icon-vscode-pass::before {
+  content: "\1ba4";
+}
+
+.icon-vscode-pass-filled::before {
+  content: "\1bb3";
+}
+
+.icon-vscode-person::before {
+  content: "\1a67";
+}
+
+.icon-vscode-person-add::before {
+  content: "\1bcd";
+}
+
+.icon-vscode-pie-chart::before {
+  content: "\1be4";
+}
+
+.icon-vscode-pin::before {
+  content: "\1b2b";
+}
+
+.icon-vscode-pinned::before {
+  content: "\1ba0";
+}
+
+.icon-vscode-pinned-dirty::before {
+  content: "\1bb2";
+}
+
+.icon-vscode-play::before {
+  content: "\1b2c";
+}
+
+.icon-vscode-play-circle::before {
+  content: "\1ba6";
+}
+
+.icon-vscode-plug::before {
+  content: "\1b2d";
+}
+
+.icon-vscode-preserve-case::before {
+  content: "\1b2e";
+}
+
+.icon-vscode-preview::before {
+  content: "\1b2f";
+}
+
+.icon-vscode-primitive-square::before {
+  content: "\1a72";
+}
+
+.icon-vscode-project::before {
+  content: "\1b30";
+}
+
+.icon-vscode-pulse::before {
+  content: "\1b31";
+}
+
+.icon-vscode-question::before {
+  content: "\1b32";
+}
+
+.icon-vscode-quote::before {
+  content: "\1b33";
+}
+
+.icon-vscode-radio-tower::before {
+  content: "\1b34";
+}
+
+.icon-vscode-reactions::before {
+  content: "\1b35";
+}
+
+.icon-vscode-record::before {
+  content: "\1ba7";
+}
+
+.icon-vscode-record-keys::before {
+  content: "\1a65";
+}
+
+.icon-vscode-record-small::before {
+  content: "\1bfa";
+}
+
+.icon-vscode-redo::before {
+  content: "\1bb0";
+}
+
+.icon-vscode-references::before {
+  content: "\1b36";
+}
+
+.icon-vscode-refresh::before {
+  content: "\1b37";
+}
+
+.icon-vscode-regex::before {
+  content: "\1b38";
+}
+
+.icon-vscode-remote::before {
+  content: "\1b3a";
+}
+
+.icon-vscode-remote-explorer::before {
+  content: "\1b39";
+}
+
+.icon-vscode-remove::before {
+  content: "\1b3b";
+}
+
+.icon-vscode-replace::before {
+  content: "\1b3d";
+}
+
+.icon-vscode-replace-all::before {
+  content: "\1b3c";
+}
+
+.icon-vscode-reply::before {
+  content: "\1a7d";
+}
+
+.icon-vscode-repo::before {
+  content: "\1a62";
+}
+
+.icon-vscode-repo-clone::before {
+  content: "\1b3e";
+}
+
+.icon-vscode-repo-force-push::before {
+  content: "\1b3f";
+}
+
+.icon-vscode-repo-forked::before {
+  content: "\1a63";
+}
+
+.icon-vscode-repo-pull::before {
+  content: "\1b40";
+}
+
+.icon-vscode-repo-push::before {
+  content: "\1b41";
+}
+
+.icon-vscode-report::before {
+  content: "\1b42";
+}
+
+.icon-vscode-request-changes::before {
+  content: "\1b43";
+}
+
+.icon-vscode-rocket::before {
+  content: "\1b44";
+}
+
+.icon-vscode-root-folder::before {
+  content: "\1b46";
+}
+
+.icon-vscode-root-folder-opened::before {
+  content: "\1b45";
+}
+
+.icon-vscode-rss::before {
+  content: "\1b47";
+}
+
+.icon-vscode-ruby::before {
+  content: "\1b48";
+}
+
+.icon-vscode-run-above::before {
+  content: "\1bbd";
+}
+
+.icon-vscode-run-all::before {
+  content: "\1b9e";
+}
+
+.icon-vscode-run-below::before {
+  content: "\1bbe";
+}
+
+.icon-vscode-run-errors::before {
+  content: "\1bde";
+}
+
+.icon-vscode-save::before {
+  content: "\1b4b";
+}
+
+.icon-vscode-save-all::before {
+  content: "\1b49";
+}
+
+.icon-vscode-save-as::before {
+  content: "\1b4a";
+}
+
+.icon-vscode-screen-full::before {
+  content: "\1b4c";
+}
+
+.icon-vscode-screen-normal::before {
+  content: "\1b4d";
+}
+
+.icon-vscode-search::before {
+  content: "\1a6d";
+}
+
+.icon-vscode-search-stop::before {
+  content: "\1b4e";
+}
+
+.icon-vscode-server::before {
+  content: "\1b50";
+}
+
+.icon-vscode-server-environment::before {
+  content: "\1ba3";
+}
+
+.icon-vscode-server-process::before {
+  content: "\1ba2";
+}
+
+.icon-vscode-settings::before {
+  content: "\1b52";
+}
+
+.icon-vscode-settings-gear::before {
+  content: "\1b51";
+}
+
+.icon-vscode-shield::before {
+  content: "\1b53";
+}
+
+.icon-vscode-sign-in::before {
+  content: "\1a6f";
+}
+
+.icon-vscode-sign-out::before {
+  content: "\1a6e";
+}
+
+.icon-vscode-smiley::before {
+  content: "\1b54";
+}
+
+.icon-vscode-sort-precedence::before {
+  content: "\1b55";
+}
+
+.icon-vscode-source-control::before {
+  content: "\1a68";
+}
+
+.icon-vscode-split-horizontal::before {
+  content: "\1b56";
+}
+
+.icon-vscode-split-vertical::before {
+  content: "\1b57";
+}
+
+.icon-vscode-squirrel::before {
+  content: "\1b58";
+}
+
+.icon-vscode-star-empty::before {
+  content: "\1a6a";
+}
+
+.icon-vscode-star-full::before {
+  content: "\1b59";
+}
+
+.icon-vscode-star-half::before {
+  content: "\1b5a";
+}
+
+.icon-vscode-stop-circle::before {
+  content: "\1ba5";
+}
+
+.icon-vscode-symbol-array::before {
+  content: "\1a8a";
+}
+
+.icon-vscode-symbol-boolean::before {
+  content: "\1a8f";
+}
+
+.icon-vscode-symbol-class::before {
+  content: "\1b5b";
+}
+
+.icon-vscode-symbol-color::before {
+  content: "\1b5c";
+}
+
+.icon-vscode-symbol-constant::before {
+  content: "\1b5d";
+}
+
+.icon-vscode-symbol-enum::before {
+  content: "\1a95";
+}
+
+.icon-vscode-symbol-enum-member::before {
+  content: "\1b5e";
+}
+
+.icon-vscode-symbol-event::before {
+  content: "\1a86";
+}
+
+.icon-vscode-symbol-field::before {
+  content: "\1b5f";
+}
+
+.icon-vscode-symbol-file::before {
+  content: "\1b60";
+}
+
+.icon-vscode-symbol-interface::before {
+  content: "\1b61";
+}
+
+.icon-vscode-symbol-key::before {
+  content: "\1a93";
+}
+
+.icon-vscode-symbol-keyword::before {
+  content: "\1b62";
+}
+
+.icon-vscode-symbol-method::before {
+  content: "\1a8c";
+}
+
+.icon-vscode-symbol-misc::before {
+  content: "\1b63";
+}
+
+.icon-vscode-symbol-namespace::before {
+  content: "\1a8b";
+}
+
+.icon-vscode-symbol-numeric::before {
+  content: "\1a90";
+}
+
+.icon-vscode-symbol-operator::before {
+  content: "\1b64";
+}
+
+.icon-vscode-symbol-parameter::before {
+  content: "\1a92";
+}
+
+.icon-vscode-symbol-property::before {
+  content: "\1b65";
+}
+
+.icon-vscode-symbol-ruler::before {
+  content: "\1a96";
+}
+
+.icon-vscode-symbol-snippet::before {
+  content: "\1b66";
+}
+
+.icon-vscode-symbol-string::before {
+  content: "\1b8d";
+}
+
+.icon-vscode-symbol-structure::before {
+  content: "\1a91";
+}
+
+.icon-vscode-symbol-variable::before {
+  content: "\1a88";
+}
+
+.icon-vscode-sync::before {
+  content: "\1a77";
+}
+
+.icon-vscode-sync-ignored::before {
+  content: "\1b9f";
+}
+
+.icon-vscode-table::before {
+  content: "\1bb7";
+}
+
+.icon-vscode-tag::before {
+  content: "\1a66";
+}
+
+.icon-vscode-target::before {
+  content: "\1bf8";
+}
+
+.icon-vscode-tasklist::before {
+  content: "\1b67";
+}
+
+.icon-vscode-telescope::before {
+  content: "\1b68";
+}
+
+.icon-vscode-terminal::before {
+  content: "\1a85";
+}
+
+.icon-vscode-terminal-bash::before {
+  content: "\1bca";
+}
+
+.icon-vscode-terminal-cmd::before {
+  content: "\1bc4";
+}
+
+.icon-vscode-terminal-debian::before {
+  content: "\1bc5";
+}
+
+.icon-vscode-terminal-linux::before {
+  content: "\1bc6";
+}
+
+.icon-vscode-terminal-powershell::before {
+  content: "\1bc7";
+}
+
+.icon-vscode-terminal-tmux::before {
+  content: "\1bc8";
+}
+
+.icon-vscode-terminal-ubuntu::before {
+  content: "\1bc9";
+}
+
+.icon-vscode-text-size::before {
+  content: "\1b69";
+}
+
+.icon-vscode-three-bars::before {
+  content: "\1b6a";
+}
+
+.icon-vscode-thumbsdown::before {
+  content: "\1b6b";
+}
+
+.icon-vscode-thumbsup::before {
+  content: "\1b6c";
+}
+
+.icon-vscode-tools::before {
+  content: "\1b6d";
+}
+
+.icon-vscode-trash::before {
+  content: "\1a81";
+}
+
+.icon-vscode-triangle-down::before {
+  content: "\1b6e";
+}
+
+.icon-vscode-triangle-left::before {
+  content: "\1b6f";
+}
+
+.icon-vscode-triangle-right::before {
+  content: "\1b70";
+}
+
+.icon-vscode-triangle-up::before {
+  content: "\1b71";
+}
+
+.icon-vscode-twitter::before {
+  content: "\1b72";
+}
+
+.icon-vscode-type-hierarchy::before {
+  content: "\1bb9";
+}
+
+.icon-vscode-type-hierarchy-sub::before {
+  content: "\1bba";
+}
+
+.icon-vscode-type-hierarchy-super::before {
+  content: "\1bbb";
+}
+
+.icon-vscode-unfold::before {
+  content: "\1b73";
+}
+
+.icon-vscode-ungroup-by-ref-type::before {
+  content: "\1b98";
+}
+
+.icon-vscode-unlock::before {
+  content: "\1b74";
+}
+
+.icon-vscode-unmute::before {
+  content: "\1b75";
+}
+
+.icon-vscode-unverified::before {
+  content: "\1b76";
+}
+
+.icon-vscode-variable-group::before {
+  content: "\1bb8";
+}
+
+.icon-vscode-verified::before {
+  content: "\1b77";
+}
+
+.icon-vscode-verified-filled::before {
+  content: "\1be9";
+}
+
+.icon-vscode-versions::before {
+  content: "\1b78";
+}
+
+.icon-vscode-vm::before {
+  content: "\1a7a";
+}
+
+.icon-vscode-vm-active::before {
+  content: "\1b79";
+}
+
+.icon-vscode-vm-connect::before {
+  content: "\1ba9";
+}
+
+.icon-vscode-vm-outline::before {
+  content: "\1b7a";
+}
+
+.icon-vscode-vm-running::before {
+  content: "\1b7b";
+}
+
+.icon-vscode-wand::before {
+  content: "\1bcf";
+}
+
+.icon-vscode-warning::before {
+  content: "\1a6c";
+}
+
+.icon-vscode-watch::before {
+  content: "\1b7c";
+}
+
+.icon-vscode-whitespace::before {
+  content: "\1b7d";
+}
+
+.icon-vscode-whole-word::before {
+  content: "\1b7e";
+}
+
+.icon-vscode-window::before {
+  content: "\1b7f";
+}
+
+.icon-vscode-word-wrap::before {
+  content: "\1b80";
+}
+
+.icon-vscode-workspace-trusted::before {
+  content: "\1bc1";
+}
+
+.icon-vscode-workspace-unknown::before {
+  content: "\1bc3";
+}
+
+.icon-vscode-workspace-untrusted::before {
+  content: "\1bc2";
+}
+
+.icon-vscode-zoom-in::before {
+  content: "\1b81";
+}
+
+.icon-vscode-zoom-out::before {
+  content: "\1b82";
+}
+
+.icon-aws-apprunner-service::before {
+  content: "\e1a5";
+}
+
+.icon-aws-cdk-logo::before {
+  content: "\e1a6";
+}
+
+.icon-aws-cloudformation-stack::before {
+  content: "\e1a7";
+}
+
+.icon-aws-cloudwatch-log-group::before {
+  content: "\e1a8";
+}
+
+.icon-aws-ecr-registry::before {
+  content: "\e1a9";
+}
+
+.icon-aws-ecs-cluster::before {
+  content: "\e1aa";
+}
+
+.icon-aws-ecs-container::before {
+  content: "\e1ab";
+}
+
+.icon-aws-ecs-service::before {
+  content: "\e1ac";
+}
+
+.icon-aws-generic-attach-file::before {
+  content: "\e1ad";
+}
+
+.icon-aws-iot-certificate::before {
+  content: "\e1ae";
+}
+
+.icon-aws-iot-policy::before {
+  content: "\e1af";
+}
+
+.icon-aws-iot-thing::before {
+  content: "\e1b0";
+}
+
+.icon-aws-lambda-function::before {
+  content: "\e1b1";
+}
+
+.icon-aws-s3-bucket::before {
+  content: "\e1b2";
+}
+
+.icon-aws-s3-create-bucket::before {
+  content: "\e1b3";
+}
+
+.icon-aws-schemas-registry::before {
+  content: "\e1b4";
+}
+
+.icon-aws-schemas-schema::before {
+  content: "\e1b5";
+}
+
+.icon-aws-stepfunctions-preview::before {
+  content: "\e1b6";
+}

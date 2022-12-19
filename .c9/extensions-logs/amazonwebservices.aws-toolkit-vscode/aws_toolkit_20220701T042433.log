@@ -1,0 +1,10 @@
+2022-07-01 04:24:33 [ERROR]: log level: info
+2022-07-01 04:24:34 [INFO]: Retrieving AWS endpoint data
+2022-07-01 04:24:34 [INFO]: OS: Linux x64 5.4.0-1018-aws
+2022-07-01 04:24:34 [INFO]: AWS Cloud9 extension host:  1.50.1
+2022-07-01 04:24:34 [INFO]: AWS Toolkit:  1.43.0-bed8b95c7649
+2022-07-01 04:24:34 [INFO]: node: 12.22.9
+2022-07-01 04:24:34 [INFO]: telemetry cache not found: '/home/ubuntu/.c9/amazonwebservices.aws-toolkit-vscode/telemetryCache'
+2022-07-01 04:24:46 [INFO]: autoconnect: trying "ec2:instance"
+2022-07-01 04:24:47 [INFO]: autoconnect: connected: 'ec2:instance'
+2022-07-01 04:29:37 [INFO]: telemetry: sent batch (size=6)
